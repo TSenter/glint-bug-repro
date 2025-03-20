@@ -1,0 +1,5 @@
+packages:
+  - glint-bug-repro
+  - docs
+onlyBuiltDependencies:
+  - core-js
