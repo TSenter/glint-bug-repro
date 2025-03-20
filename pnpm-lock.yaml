@@ -68,90 +68,9 @@ importers:
       '@tsconfig/ember':
         specifier: ^3.0.8
         version: 3.0.9
-      '@types/ember':
-        specifier: ^4.0.11
-        version: 4.0.11(@babel/core@7.26.10)
-      '@types/ember-data':
-        specifier: ^4.4.16
-        version: 4.4.16(@babel/core@7.26.10)
-      '@types/ember-data__adapter':
-        specifier: ^4.0.6
-        version: 4.0.6(@babel/core@7.26.10)
-      '@types/ember-data__model':
-        specifier: ^4.0.5
-        version: 4.0.5(@babel/core@7.26.10)
-      '@types/ember-data__serializer':
-        specifier: ^4.0.6
-        version: 4.0.6(@babel/core@7.26.10)
-      '@types/ember-data__store':
-        specifier: ^4.0.7
-        version: 4.0.7(@babel/core@7.26.10)
-      '@types/ember__application':
-        specifier: ^4.0.11
-        version: 4.0.11(@babel/core@7.26.10)
-      '@types/ember__array':
-        specifier: ^4.0.10
-        version: 4.0.10(@babel/core@7.26.10)
-      '@types/ember__component':
-        specifier: ^4.0.22
-        version: 4.0.22(@babel/core@7.26.10)
-      '@types/ember__controller':
-        specifier: ^4.0.12
-        version: 4.0.12(@babel/core@7.26.10)
-      '@types/ember__debug':
-        specifier: ^4.0.8
-        version: 4.0.8(@babel/core@7.26.10)
-      '@types/ember__destroyable':
-        specifier: ^4.0.5
-        version: 4.0.5
-      '@types/ember__engine':
-        specifier: ^4.0.11
-        version: 4.0.11(@babel/core@7.26.10)
-      '@types/ember__error':
-        specifier: ^4.0.6
-        version: 4.0.6
-      '@types/ember__helper':
-        specifier: ^4.0.8
-        version: 4.0.9(@babel/core@7.26.10)
-      '@types/ember__modifier':
-        specifier: ^4.0.9
-        version: 4.0.9(@babel/core@7.26.10)
-      '@types/ember__object':
-        specifier: ^4.0.12
-        version: 4.0.12(@babel/core@7.26.10)
-      '@types/ember__owner':
-        specifier: ^4.0.9
-        version: 4.0.9
-      '@types/ember__polyfills':
-        specifier: ^4.0.6
-        version: 4.0.6
-      '@types/ember__routing':
-        specifier: ^4.0.22
-        version: 4.0.22(@babel/core@7.26.10)
-      '@types/ember__runloop':
-        specifier: ^4.0.10
-        version: 4.0.10(@babel/core@7.26.10)
-      '@types/ember__service':
-        specifier: ^4.0.9
-        version: 4.0.9(@babel/core@7.26.10)
-      '@types/ember__string':
-        specifier: ^3.16.3
-        version: 3.16.3
-      '@types/ember__template':
-        specifier: ^4.0.7
-        version: 4.0.7
-      '@types/ember__test':
-        specifier: ^4.0.6
-        version: 4.0.6(@babel/core@7.26.10)
-      '@types/ember__utils':
-        specifier: ^4.0.7
-        version: 4.0.7(@babel/core@7.26.10)
       '@types/qunit':
         specifier: ^2.19.10
         version: 2.19.12
-      '@types/rsvp':
-        specifier: ^4.0.9
-        version: 4.0.9
       broccoli-asset-rev:
         specifier: ^3.0.0
         version: 3.0.0
@@ -296,6 +215,9 @@ importers:
       decorator-transforms:
         specifier: ^2.0.0
         version: 2.3.0(@babel/core@7.26.10)
+      ember-source:
+        specifier: ^5.9.0 || ^6.0.0
+        version: 5.12.0(@glimmer/component@1.1.2(@babel/core@7.26.10))(@glint/template@1.5.2)(rsvp@4.8.5)(webpack@5.98.0)
     devDependencies:
       '@babel/core':
         specifier: ^7.24.4
@@ -330,69 +252,6 @@ importers:
       '@tsconfig/ember':
         specifier: ^3.0.6
         version: 3.0.9
-      '@types/ember':
-        specifier: ^4.0.10
-        version: 4.0.11(@babel/core@7.26.10)
-      '@types/ember__application':
-        specifier: ^4.0.10
-        version: 4.0.11(@babel/core@7.26.10)
-      '@types/ember__array':
-        specifier: ^4.0.9
-        version: 4.0.10(@babel/core@7.26.10)
-      '@types/ember__component':
-        specifier: ^4.0.21
-        version: 4.0.22(@babel/core@7.26.10)
-      '@types/ember__controller':
-        specifier: ^4.0.11
-        version: 4.0.12(@babel/core@7.26.10)
-      '@types/ember__debug':
-        specifier: ^4.0.7
-        version: 4.0.8(@babel/core@7.26.10)
-      '@types/ember__destroyable':
-        specifier: ^4.0.4
-        version: 4.0.5
-      '@types/ember__engine':
-        specifier: ^4.0.10
-        version: 4.0.11(@babel/core@7.26.10)
-      '@types/ember__error':
-        specifier: ^4.0.5
-        version: 4.0.6
-      '@types/ember__helper':
-        specifier: ^4.0.5
-        version: 4.0.9(@babel/core@7.26.10)
-      '@types/ember__modifier':
-        specifier: ^4.0.8
-        version: 4.0.9(@babel/core@7.26.10)
-      '@types/ember__object':
-        specifier: ^4.0.11
-        version: 4.0.12(@babel/core@7.26.10)
-      '@types/ember__owner':
-        specifier: ^4.0.8
-        version: 4.0.9
-      '@types/ember__polyfills':
-        specifier: ^4.0.5
-        version: 4.0.6
-      '@types/ember__routing':
-        specifier: ^4.0.19
-        version: 4.0.22(@babel/core@7.26.10)
-      '@types/ember__runloop':
-        specifier: ^4.0.8
-        version: 4.0.10(@babel/core@7.26.10)
-      '@types/ember__service':
-        specifier: ^4.0.8
-        version: 4.0.9(@babel/core@7.26.10)
-      '@types/ember__string':
-        specifier: ^3.16.3
-        version: 3.16.3
-      '@types/ember__template':
-        specifier: ^4.0.5
-        version: 4.0.7
-      '@types/ember__test':
-        specifier: ^4.0.5
-        version: 4.0.6(@babel/core@7.26.10)
-      '@types/ember__utils':
-        specifier: ^4.0.6
-        version: 4.0.7(@babel/core@7.26.10)
       babel-plugin-ember-template-compilation:
         specifier: ^2.2.5
         version: 2.3.0
@@ -1725,21 +1584,6 @@ packages:
   '@types/cors@2.8.17':
     resolution: {integrity: sha512-8CGDvrBj1zgo2qE+oS3pOCyYNqCPryMWY2bGfwA0dcfopWGgxs+78df0Rs3rc9THP4JkOhLsAa+15VdpAqkcUA==}
 
-  '@types/ember-data@4.4.16':
-    resolution: {integrity: sha512-plFqPkgw7n4YlkzvApkQAIhvvYTERlx8PeI2J5gSFtMtsKuoaIo8fXm4w22ZdBQtTzeh/kwvpO2WY8R/d5Ttfg==}
-
-  '@types/ember-data__adapter@4.0.6':
-    resolution: {integrity: sha512-vSrx1cqz8jO0cBYwu98SrwFk5s722C+BGpw++NregwQio3g9VbNoymx+HsYeXvsWvGUsoRewxu9K7TwAOJSsvw==}
-
-  '@types/ember-data__model@4.0.5':
-    resolution: {integrity: sha512-zyfHh3tQiMdpbPZ1/RFxi4m9TdwsZxDmVY0e7V1UYp7pWvm/DeqEXqoy3WS9xa/O01xoJFpQtJHyasdXvVTfbg==}
-
-  '@types/ember-data__serializer@4.0.6':
-    resolution: {integrity: sha512-ebxxySSvTiay1/hgN4fElahSuL0MX+1sMMwx/RQyy7z98ifV8wafW62BwlYtbH44aeTIdcaSBE2pm3R1aP2yUA==}
-
-  '@types/ember-data__store@4.0.7':
-    resolution: {integrity: sha512-0S3Etr32i4aGvhXhZM6CXaosvX8E6c+RCx8pCxUXVdn+SmICm8jqFXsDC6Gnqq4bJeTkf9cglqz46prOVR1Tcg==}
-
   '@types/ember@4.0.11':
     resolution: {integrity: sha512-v7VIex0YILK8fP87LkIfzeeYKNnu74+xwf6U56v6MUDDGfSs9q/6NCxiUfwkxD+z5nQiUcwvfKVokX8qzZFRLw==}
 
@@ -1757,9 +1601,6 @@ packages:
 
   '@types/ember__debug@4.0.8':
     resolution: {integrity: sha512-9wF7STmDHDsUxSjyCq2lpMq/03QOPkBQMGJnV8yOBnVZxB6f+FJH/kxaCprdMkUe7iwAPNEC2zrFFx1tzH75Kg==}
-
-  '@types/ember__destroyable@4.0.5':
-    resolution: {integrity: sha512-spJyZxpvecssbXkaOQYcbnlWgb+TasFaKrgAYVbykZY6saMwUdMOGDDoW6uP/y/+A8Jj/fUIatPWJLepeSfgww==}
 
   '@types/ember__engine@4.0.11':
     resolution: {integrity: sha512-ryR4Q1Xm3kQ3Ap58w10CxV3+vb3hs1cJqi7UZ5IlSdLRql7AbpS6hIjxSQ3EQ4zadeeJ6/D8JJcSwqR7eX3PFA==}
@@ -8737,43 +8578,26 @@ snapshots:
     dependencies:
       '@types/node': 22.13.10
 
-  '@types/ember-data@4.4.16(@babel/core@7.26.10)':
+  '@types/ember@4.0.11':
     dependencies:
-      '@types/ember': 4.0.11(@babel/core@7.26.10)
+      '@types/ember__application': 4.0.11(@babel/core@7.26.10)
+      '@types/ember__array': 4.0.10(@babel/core@7.26.10)
+      '@types/ember__component': 4.0.22(@babel/core@7.26.10)
+      '@types/ember__controller': 4.0.12(@babel/core@7.26.10)
+      '@types/ember__debug': 4.0.8(@babel/core@7.26.10)
+      '@types/ember__engine': 4.0.11(@babel/core@7.26.10)
       '@types/ember__error': 4.0.6
       '@types/ember__object': 4.0.12(@babel/core@7.26.10)
+      '@types/ember__polyfills': 4.0.6
+      '@types/ember__routing': 4.0.22(@babel/core@7.26.10)
+      '@types/ember__runloop': 4.0.10
+      '@types/ember__service': 4.0.9(@babel/core@7.26.10)
+      '@types/ember__string': 3.16.3
+      '@types/ember__template': 4.0.7
+      '@types/ember__test': 4.0.6(@babel/core@7.26.10)
+      '@types/ember__utils': 4.0.7
       '@types/rsvp': 4.0.9
-    transitivePeerDependencies:
-      - '@babel/core'
-      - supports-color
-
-  '@types/ember-data__adapter@4.0.6(@babel/core@7.26.10)':
-    dependencies:
-      '@types/ember-data': 4.4.16(@babel/core@7.26.10)
-    transitivePeerDependencies:
-      - '@babel/core'
-      - supports-color
-
-  '@types/ember-data__model@4.0.5(@babel/core@7.26.10)':
-    dependencies:
-      '@types/ember-data': 4.4.16(@babel/core@7.26.10)
-    transitivePeerDependencies:
-      - '@babel/core'
-      - supports-color
-
-  '@types/ember-data__serializer@4.0.6(@babel/core@7.26.10)':
-    dependencies:
-      '@types/ember-data': 4.4.16(@babel/core@7.26.10)
-    transitivePeerDependencies:
-      - '@babel/core'
-      - supports-color
-
-  '@types/ember-data__store@4.0.7(@babel/core@7.26.10)':
-    dependencies:
-      '@types/ember-data': 4.4.16(@babel/core@7.26.10)
-    transitivePeerDependencies:
-      - '@babel/core'
-      - supports-color
+    optional: true
 
   '@types/ember@4.0.11(@babel/core@7.26.10)':
     dependencies:
@@ -8797,11 +8621,12 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
+    optional: true
 
   '@types/ember__application@4.0.11(@babel/core@7.26.10)':
     dependencies:
       '@glimmer/component': 1.1.2(@babel/core@7.26.10)
-      '@types/ember': 4.0.11(@babel/core@7.26.10)
+      '@types/ember': 4.0.11
       '@types/ember__engine': 4.0.11(@babel/core@7.26.10)
       '@types/ember__object': 4.0.12(@babel/core@7.26.10)
       '@types/ember__owner': 4.0.9
@@ -8809,6 +8634,7 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
+    optional: true
 
   '@types/ember__array@4.0.10(@babel/core@7.26.10)':
     dependencies:
@@ -8817,6 +8643,7 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
+    optional: true
 
   '@types/ember__component@4.0.22(@babel/core@7.26.10)':
     dependencies:
@@ -8825,6 +8652,7 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
+    optional: true
 
   '@types/ember__controller@4.0.12(@babel/core@7.26.10)':
     dependencies:
@@ -8832,6 +8660,7 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
+    optional: true
 
   '@types/ember__debug@4.0.8(@babel/core@7.26.10)':
     dependencies:
@@ -8840,8 +8669,7 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
-
-  '@types/ember__destroyable@4.0.5': {}
+    optional: true
 
   '@types/ember__engine@4.0.11(@babel/core@7.26.10)':
     dependencies:
@@ -8850,8 +8678,10 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
+    optional: true
 
-  '@types/ember__error@4.0.6': {}
+  '@types/ember__error@4.0.6':
+    optional: true
 
   '@types/ember__helper@4.0.9(@babel/core@7.26.10)':
     dependencies:
@@ -8861,6 +8691,7 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
+    optional: true
 
   '@types/ember__modifier@4.0.9(@babel/core@7.26.10)':
     dependencies:
@@ -8869,6 +8700,7 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
+    optional: true
 
   '@types/ember__object@4.0.12(@babel/core@7.26.10)':
     dependencies:
@@ -8877,10 +8709,13 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
+    optional: true
 
-  '@types/ember__owner@4.0.9': {}
+  '@types/ember__owner@4.0.9':
+    optional: true
 
-  '@types/ember__polyfills@4.0.6': {}
+  '@types/ember__polyfills@4.0.6':
+    optional: true
 
   '@types/ember__routing@4.0.22(@babel/core@7.26.10)':
     dependencies:
@@ -8891,6 +8726,12 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
+    optional: true
+
+  '@types/ember__runloop@4.0.10':
+    dependencies:
+      '@types/ember': 4.0.11
+    optional: true
 
   '@types/ember__runloop@4.0.10(@babel/core@7.26.10)':
     dependencies:
@@ -8898,6 +8739,7 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
+    optional: true
 
   '@types/ember__service@4.0.9(@babel/core@7.26.10)':
     dependencies:
@@ -8905,12 +8747,15 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
+    optional: true
 
   '@types/ember__string@3.16.3':
     dependencies:
       '@types/ember__template': 4.0.7
+    optional: true
 
-  '@types/ember__template@4.0.7': {}
+  '@types/ember__template@4.0.7':
+    optional: true
 
   '@types/ember__test@4.0.6(@babel/core@7.26.10)':
     dependencies:
@@ -8918,6 +8763,12 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
+    optional: true
+
+  '@types/ember__utils@4.0.7':
+    dependencies:
+      '@types/ember': 4.0.11
+    optional: true
 
   '@types/ember__utils@4.0.7(@babel/core@7.26.10)':
     dependencies:
@@ -8925,6 +8776,7 @@ snapshots:
     transitivePeerDependencies:
       - '@babel/core'
       - supports-color
+    optional: true
 
   '@types/eslint-scope@3.7.7':
     dependencies:
@@ -9011,7 +8863,8 @@ snapshots:
       '@types/glob': 8.1.0
       '@types/node': 22.13.10
 
-  '@types/rsvp@4.0.9': {}
+  '@types/rsvp@4.0.9':
+    optional: true
 
   '@types/send@0.17.4':
     dependencies:

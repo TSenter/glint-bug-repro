@@ -1,5 +1,6 @@
 import '@glint/environment-ember-loose';
 import '@glint/environment-ember-template-imports';
+import 'ember-source/types';
 
 import PageTitleRegistry from 'ember-page-title/template-registry';
 import AddonRegistry from 'glint-bug-repro/template-registry';
