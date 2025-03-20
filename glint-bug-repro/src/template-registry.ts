@@ -3,9 +3,8 @@
 // See https://typed-ember.gitbook.io/glint/environments/ember/authoring-addons
 
 // import type MyComponent from './components/my-component';
+import Sidebar from './components/sidebar.gts';
 
-// Remove this once entries have been added! 👇
-// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export default interface Registry {
-  // MyComponent: typeof MyComponent
+  Sidebar: typeof Sidebar;
 }
